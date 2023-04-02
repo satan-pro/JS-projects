@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url("water-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 15px;
+
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+    height: 50px;
+    width: 70px;
+    
+}
+
+button .icon {
+    font-size: 1.5rem;
+    padding: 10px;
+    width: inherit;
+    height: inherit;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#play {
+    background-color: green;
+    color: #fff;
+   
+}
+
+#pause {
+    background-color: orange;
+
+}
+
+#reset {
+    background-color: red;
+}
