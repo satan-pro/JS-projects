@@ -1,0 +1,1 @@
+# These are simple projects made using HTML, CSS and vanilla Javascript
